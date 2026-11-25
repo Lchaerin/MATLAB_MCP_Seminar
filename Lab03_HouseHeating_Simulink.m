@@ -42,7 +42,7 @@ cd(labDir)
 % 필요한 제품 확인
 v = ver;
 requiredProducts = ["Simulink", "Stateflow", "Simscape"];
-missingProducts = requiredProducts(~ismember(requiredProducts, string({v.Name}))) %[output:57b5eba9]
+missingProducts = requiredProducts(~ismember(requiredProducts, string({v.Name})))
 assert(isempty(missingProducts), "다음 제품이 필요합니다: " + strjoin(missingProducts, ", "))
 
 % 모델·데이터 폴더를 경로에 추가하고, 임시 파일 폴더 지정
@@ -149,7 +149,4 @@ clipboard("copy", prompt);
 %---
 %[metadata:view]
 %   data: {"layout":"inline"}
-%---
-%[output:57b5eba9]
-%   data: {"dataType":"text","outputData":{"text":"\nmissingProducts = \n\n  1×0 비어 있는 <a href=\"matlab:helpPopup('string')\" style=\"font-weight:bold\">string<\/a> 배열\n\n","truncated":false}}
 %---
