@@ -1,4 +1,5 @@
-# POSTECH 세미나 — Agentic AI로 MATLAB·Simulink 효율화하기: 실습 자료
+# Agentic AI 활용 MATLAB·Simulink 효율화 워크샵 (@POSTECH)
+
 
 AI 에이전트를 MATLAB MCP Server로 MATLAB·Simulink에 연결해, 데이터 분석·모델 디버깅·딥러닝 객체 검출을 함께 해 보는 실습입니다.
 
